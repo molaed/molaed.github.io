@@ -42,7 +42,8 @@ export default function ContactForm() {
   function onSubmit(values: z.infer<typeof formSchema>) {
     setIsSubmitting(true)
 
-    // Simulate form submission
+    // In a real implementation, you might use a form service like Formspree or EmailJS
+    // For now, we'll just simulate a successful submission
     setTimeout(() => {
       console.log(values)
       toast({

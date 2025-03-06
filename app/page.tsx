@@ -11,7 +11,7 @@ export default function Home() {
       {/* Navigation */}
       <header className="sticky top-0 z-40 w-full border-b bg-background/95 backdrop-blur">
         <div className="container flex h-16 items-center justify-between">
-          <Link href="/" className="font-bold text-xl">
+          <Link href="./" className="font-bold text-xl">
             Portfolio
           </Link>
           <nav className="hidden md:flex gap-6">
